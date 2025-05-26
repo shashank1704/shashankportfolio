@@ -110,7 +110,7 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Content - Enhanced Profile Picture */}
+          {/* Right Content - Profile Picture */}
           <div className="flex justify-center lg:justify-end animate-fade-in animation-delay-500">
             <div className="relative group">
               {/* Glowing ring effect */}
@@ -118,10 +118,14 @@ const Hero = () => {
               
               {/* Main profile container */}
               <div className="relative w-96 h-96 rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 p-2 group-hover:scale-105 transition-transform duration-500">
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center text-7xl font-bold text-gray-700 relative overflow-hidden">
-                  <span className="relative z-10">KS</span>
-                  {/* Shimmer effect */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -skew-x-12 animate-pulse"></div>
+                <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200">
+                  <img 
+                    src="https://postimage.me/image/PASSPHOTO.Udqs8a" 
+                    alt="Kanuthuru Shashank Profile"
+                    className="w-full h-full object-cover object-center"
+                  />
+                  {/* Shimmer effect overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -skew-x-12 animate-pulse opacity-30"></div>
                 </div>
               </div>
               
