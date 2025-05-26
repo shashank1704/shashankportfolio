@@ -120,7 +120,7 @@ const Hero = () => {
               <div className="relative w-96 h-96 rounded-full bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 p-2 group-hover:scale-105 transition-transform duration-500">
                 <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200">
                   <img 
-                    src="https://postimage.me/image/PASSPHOTO.Udqs8a" 
+                    src="https://postimage.me/images/2025/05/26/PASSPHOTO.jpg" 
                     alt="Kanuthuru Shashank Profile"
                     className="w-full h-full object-cover object-center"
                   />
