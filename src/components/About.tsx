@@ -1,10 +1,7 @@
-
 import { GraduationCap, User, Award } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
-
 const About = () => {
-  return (
-    <section id="about" className="py-20 bg-gray-900 text-white">
+  return <section id="about" className="py-20 bg-gray-900 text-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
@@ -45,7 +42,7 @@ const About = () => {
                   <span className="text-yellow-400 font-bold text-lg">8.71/10 CGPA</span>
                 </div>
                 <p className="text-gray-300 mb-2">Aditya Institute of Technology and Management</p>
-                <p className="text-gray-400">Expected 2025</p>
+                <p className="text-gray-400">2022 - 2025</p>
               </CardContent>
             </Card>
 
@@ -70,25 +67,15 @@ const About = () => {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              "Machine Learning Foundations",
-              "Advanced Data Structures", 
-              "AI-ML Virtual Internship",
-              "Android Developer Virtual Internship",
-              "Internet of Things"
-            ].map((cert, index) => (
-              <Card key={index} className="bg-gradient-to-br from-gray-800 to-gray-900 border-gray-700 hover:border-yellow-400 transition-all duration-300 hover:scale-105">
+            {["Machine Learning Foundations", "Advanced Data Structures", "AI-ML Virtual Internship", "Android Developer Virtual Internship", "Internet of Things"].map((cert, index) => <Card key={index} className="bg-gradient-to-br from-gray-800 to-gray-900 border-gray-700 hover:border-yellow-400 transition-all duration-300 hover:scale-105">
                 <CardContent className="p-6 text-center">
                   <Award className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
                   <h4 className="text-lg font-semibold text-white">{cert}</h4>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
