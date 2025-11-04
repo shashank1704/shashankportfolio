@@ -64,8 +64,8 @@ const Hero = () => {
             </div>
             
             <p className="text-gray-400 max-w-lg leading-relaxed text-lg">
-              4th-year Computer Science (AIML) student passionate about machine learning, 
-              artificial intelligence, and creating innovative web solutions that make a difference.
+              B.Tech CSE (AIML) student seeking challenging roles in IT to utilize programming, 
+              problem-solving, and software development skills for team success and organizational growth.
             </p>
 
             {/* Enhanced Social Links */}
