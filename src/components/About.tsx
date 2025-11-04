@@ -18,13 +18,9 @@ const About = () => {
               <h3 className="text-2xl font-semibold">My Story</h3>
             </div>
             <p className="text-gray-300 leading-relaxed text-lg">
-              Enthusiastic 4th-year Computer Science (AIML) student with a solid foundation in 
-              machine learning and artificial intelligence. Passionate about leveraging academic 
-              knowledge to develop innovative solutions in real-world projects.
-            </p>
-            <p className="text-gray-300 leading-relaxed text-lg">
-              Seeking a challenging role to enhance technical skills and contribute to impactful 
-              initiatives that make a difference in the tech industry.
+              To obtain a challenging role in the IT industry where I can utilize my programming, 
+              problem-solving, and software development skills to contribute to team success and 
+              organizational growth.
             </p>
           </div>
 
@@ -39,7 +35,7 @@ const About = () => {
               <CardContent className="p-6">
                 <div className="flex justify-between items-start mb-3">
                   <h4 className="text-xl font-semibold text-blue-400">B.Tech in CSE (AIML)</h4>
-                  <span className="text-yellow-400 font-bold text-lg">8.71/10 CGPA</span>
+                  <span className="text-yellow-400 font-bold text-lg">8.84/10 CGPA</span>
                 </div>
                 <p className="text-gray-300 mb-2">Aditya Institute of Technology and Management</p>
                 <p className="text-gray-400">2022 - 2025</p>
@@ -67,7 +63,7 @@ const About = () => {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {["Machine Learning Foundations", "Advanced Data Structures", "AI-ML Virtual Internship", "Android Developer Virtual Internship", "Internet of Things"].map((cert, index) => <Card key={index} className="bg-gradient-to-br from-gray-800 to-gray-900 border-gray-700 hover:border-yellow-400 transition-all duration-300 hover:scale-105">
+            {["Machine Learning Foundations", "Advanced Data Structures", "AI-ML Virtual Internship", "Android Developer Virtual Internship", "Java Full Stack"].map((cert, index) => <Card key={index} className="bg-gradient-to-br from-gray-800 to-gray-900 border-gray-700 hover:border-yellow-400 transition-all duration-300 hover:scale-105">
                 <CardContent className="p-6 text-center">
                   <Award className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
                   <h4 className="text-lg font-semibold text-white">{cert}</h4>

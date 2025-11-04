@@ -7,14 +7,14 @@ const Experience = () => {
     title: "Full-Stack Development Intern",
     company: "Cloud Technologies",
     duration: "April 2024 - June 2024",
-    location: "Remote",
-    description: "Gained hands-on experience in full-stack development, working with cutting-edge technologies and contributing to real-world projects.",
+    location: "Hyderabad",
+    description: "Developed and deployed comprehensive web pages using Python, Flask, HTML, CSS, JavaScript and SQL, enhancing system efficiency and user experience.",
     achievements: [
-      "Developed and deployed a comprehensive web platform using Python, Flask, HTML, CSS, JavaScript, and SQL",
-      "Integrated multiple machine learning models including KNN, SVM, Random Forest, and Logistic Regression",
-      "Focused on optimizing system efficiency and enhancing user experience",
-      "Collaborated with cross-functional teams to deliver high-quality solutions",
-      "Implemented responsive design principles for mobile and desktop compatibility"
+      "Developed and deployed comprehensive web pages using Python, Flask, HTML, CSS, JavaScript, and SQL",
+      "Implemented key features including user authentication and classification",
+      "Integrated prediction capabilities using machine learning algorithms (KNN, SVM, Random Forest, Logistic Regression)",
+      "Executed front-end and back-end development ensuring a user-friendly platform",
+      "Enhanced skills in web development, machine learning, and data analysis"
     ],
     technologies: ["Python", "Flask", "HTML", "CSS", "JavaScript", "SQL", "Machine Learning", "KNN", "SVM", "Random Forest", "Logistic Regression"]
   };

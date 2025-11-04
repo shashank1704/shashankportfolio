@@ -8,31 +8,31 @@ const Skills = () => {
       icon: Code,
       title: "Programming",
       color: "from-blue-500 to-cyan-500",
-      skills: ["C", "C++", "Python", "Java"]
+      skills: ["Java", "Python", "C++"]
     },
     {
       icon: Brain,
       title: "Web Technologies",
       color: "from-purple-500 to-pink-500", 
-      skills: ["HTML", "CSS", "JavaScript", "Flask"]
+      skills: ["HTML", "CSS", "JavaScript", "NumPy", "Pandas", "Matplotlib"]
     },
     {
       icon: Database,
-      title: "Data & ML",
+      title: "Databases",
       color: "from-green-500 to-emerald-500",
-      skills: ["NumPy", "Pandas", "Matplotlib", "MySQL"]
+      skills: ["Oracle SQL"]
     },
     {
       icon: Wrench,
       title: "Tools & Platforms",
       color: "from-orange-500 to-red-500",
-      skills: ["GitHub", "VS Code", "PyCharm", "Colab", "Anaconda", "Power BI"]
+      skills: ["Github", "VS Code", "PyCharm", "Colab", "Anaconda", "Power BI"]
     }
   ];
 
   const coursework = [
-    "Machine Learning", "Data Structures", "Operating Systems", 
-    "Computer Networks", "Object-Oriented Programming", "Database Management Systems"
+    "Machine Learning", "Data Structures", "Operating System", 
+    "CN", "OOPs", "DBMS"
   ];
 
   return (
